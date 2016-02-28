@@ -4,8 +4,11 @@ $(document).ready(function(){
 	function checkLogin(username, password){
 		var ref=firebase.child(username);
 		ref.once("value",function(snapshot){
-			return snapshot.val() == password;
+			var ret = snapshot.val() == password;
+			// console.log(ret);
+			return ret;
 		});
+
 		return false;
 	}
 
