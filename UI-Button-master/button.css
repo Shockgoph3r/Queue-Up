@@ -14,6 +14,12 @@
             Button
 *******************************/
 
+.card:hover {
+	opacity: .8;
+
+}
+
+
 .ui.button {
   cursor: pointer;
   display: inline-block;
