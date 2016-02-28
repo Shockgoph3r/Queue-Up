@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	$("#signup").click(function(e){
 		e.preventDefault();
-		firebase.once("value",function(snapshot){
+		// firebase.once("value",function(snapshot){
 			// console.log("ihf");
 			var username = $("#un").val();
 			var password = $("#pw").val();
@@ -12,6 +12,6 @@ $(document).ready(function(){
 			// console.log("sdfih");
 			ref.set(password);
 			// console.log("hihi");
-		});
+		// });
 	})
 })
