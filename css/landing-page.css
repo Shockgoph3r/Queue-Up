@@ -40,7 +40,7 @@ h6 {
 }
 
 .signinblock {
-	color: #000000;
+	color: #ffafaf;
 	padding-top: 80px;
 	padding-bottom: 50px;
 	color: #f8f8f8;
@@ -51,9 +51,18 @@ h6 {
 	color: #000000;
 }
 
+.signinblock form{
+	color: #000000;
+}
+
 .signinblock  h2{
 	color: #000000;
 	padding-bottom: 20px;
+}
+
+.signintext{
+	color: #000000;
+	padding-top: 20px;
 }
 
 .signinlabel {
