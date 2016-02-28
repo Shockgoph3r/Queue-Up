@@ -46,8 +46,18 @@ h6 {
 	color: #f8f8f8;
 	text-align: center;
 }
-.signinlabel {
+
+.signinblock input{
 	color: #000000;
+}
+
+.signinblock  h2{
+	color: #000000;
+	padding-bottom: 20px;
+}
+
+.signinlabel {
+	color: #7c7272;
 	font-size: 15px;
 }
 
